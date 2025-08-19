@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal and Vertical</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .top {
+      margin-top: 40px;
+      font-size: 28px;
+      font-style: italic;
+      color: #ccc;
+    }
+    .logo img {
+      max-width: 250px;
+      margin: 20px 0;
+    }
+    .company-name {
+      font-size: 40px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    .company-name .horizontal {
+      color: darkgreen;
+    }
+    .company-name .vertical {
+      color: yellow;
+    }
+    .contact {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 20px 0;
+    }
+    .tagline {
+      font-size: 26px;
+      font-weight: bold;
+      color: limegreen;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top">Website Under Renovation</div>
+
+  <div class="logo">
+    <img src="logo.png" alt="Company Logo">
+  </div>
+
+  <div class="company-name">
+    <span class="horizontal">HORIZONTAL</span> 
+    <span class="vertical">& VERTICAL</span>
+  </div>
+
+  <div class="contact">
+    Email: sales@horizontalandvertical.com<br>
+    Email: info@horizontalandvertical.com<br>
+    Phone: +91 6381252906
+  </div>
+
+  <div class="tagline">ENGINEERED TO PROTECT</div>
+</body>
+</html>
